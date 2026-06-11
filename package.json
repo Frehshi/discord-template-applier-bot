@@ -1,0 +1,19 @@
+{
+  "name": "discord-template-applier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Admin-only Discord bot command that recreates a server from a Discord template snapshot.",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "node src/deploy-commands.js",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2"
+  }
+}
